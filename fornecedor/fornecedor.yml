@@ -1,8 +1,8 @@
 spring:
   datasource:
     password: 123456
-    username: root
-    url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=UTC
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/fornecedor
   jpa:
     hibernate:
       ddl-auto: update
